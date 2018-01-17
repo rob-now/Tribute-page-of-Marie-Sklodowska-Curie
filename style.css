@@ -1,13 +1,34 @@
-.grey-background {
-    background-color: #EEE;
-}
-
 body {
     margin: 40px 0px 40px 0px;
 }
 
 @media screen and (min-width: 768px) {
     h1{
-        font-size:60px;
+        font-size: 60px;
     }
+}
+
+.grey-background {
+    background-color: #EEE;
+    border-radius: 10px;
+}
+
+h1.text-center {
+    padding-top: 50px;
+}
+
+.thumbnail img {
+    border-radius:2px;
+}
+
+.thumbnail p {
+    padding-top: 10px;
+}
+
+.main {
+    padding: 0 15px;
+}
+
+footer h2 {
+    padding-bottom: 20px;
 }
